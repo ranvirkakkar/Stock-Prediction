@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.pyd
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor Folders
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Build/Distribution
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Test & Coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Flask
+instance/
+.webassets-cache
+
+# mypy
+.mypy_cache/
+
+# pytype
+.pytype/
