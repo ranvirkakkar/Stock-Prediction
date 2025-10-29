@@ -14,7 +14,7 @@ import io, base64
 
 
 
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 # -------------------
